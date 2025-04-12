@@ -1,0 +1,40 @@
+header {
+    background-image: url('../image/hero-bg.png');
+    min-height: 100vh;
+    background-position: start;
+    background-size: cover;
+    color: white;
+}
+nav {
+    background: url(../image/hero-bg.png);
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+}
+.btnor {
+    background-color: #ecc314;
+}
+.btnor:hover {
+    background-color: #b3940a;
+}
+input , textarea{
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    outline: none;
+}
+textarea {
+    display: flex;
+}
+textarea::placeholder {
+    transform: translateY(83px);
+}
+.btnsen {
+    width: 20%;
+    border-radius: 30px;
+    padding: 10px 0;
+    font-size: 20px;
+    background-color: #6bd1bc;
+    color: white;
+    border: none;
+}

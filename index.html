@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg position-fixed">
+        <div class="container">
+            <span class="navbar-brand">
+                <h4 class="text-white">WE school for kids</h4>
+            </span>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#Home" class="nav-link text-white px-3">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white px-3">About</a></li>
+                    <li class="nav-item"><a href="#Admission" class="nav-link text-white px-3">Admission</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-white px-3">Why Us</a></li>
+                    <li class="nav-item"><a href="#Contact" class="nav-link text-white px-3">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="pt-5" id="Home">
+        
+        <div class="container mt-5">
+            <div class="row pt-5">
+                <div class="col-lg-6 d-flex flex-column gap-4">
+                    <h1 class="w-75 display-4 fw-bold">Best way to fund your study aboard</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+                        aliquid reprehenderit perferendis, ratione molestiae voluptatibus quae excepturi placeat voluptates tempore,
+                        assumenda laudantium velit odit vel sequi eaque error, non ad!</p>
+                    <button class="btn btn-light rounded-3 w-25  px-1 py-2">Read More</button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./image/hero.png" class="img-fluid w-100 h-100" alt="hero">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="sec1" id="Admission">
+        <div class="container ">
+            <div class="row vh-100">
+                <div class="col-lg-6 d-flex flex-column gap-4 justify-content-center">
+                    <h2>Admission open</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+                        aliquid reprehenderit perferendis, ratione molestiae voluptatibus quae excepturi placeat voluptates tempore,
+                        assumenda laudantium velit odit vel sequi eaque error, non ad!</p>
+                        <button class="btn text-white rounded-5 btn-lg w-25 btnor">Read More</button>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                    <img src="./image/admission.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Contact">
+        <div class="container">
+            <div class="row vh-100">
+                <div class="col-lg-6  d-flex flex-column gap-3 justify-content-center">
+                    <h1>Contact Us</h1>
+                    <div class="row gap-4">
+                        <input type="text" placeholder="Name" class="form-control">
+                        <p class="text text-danger"></p>
+                        <input type="email" placeholder="Email" class="form-control">
+                        <p class="text text-danger"></p>
+                        <input type="tel" placeholder="Phone Number" class="form-control">
+                        <p class="text text-danger"></p>
+                        <textarea name="" id="" cols="83" rows="5" placeholder="Message"></textarea>
+                        <p class="text text-danger"></p>
+                        <button class="btnsen" onclick="check()" type="submit">Send</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                    <img src="./image/students.jpg" class="img-fluid w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
